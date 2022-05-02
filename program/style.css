@@ -1,0 +1,71 @@
+* {
+    background: rgb(9, 9, 48);
+}
+
+.wrapper {
+    display: grid;
+    /*grid-template-columns: 30vh 30vh 30vh 30vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    /*grid-auto-rows: 30vh;*/
+    grid-column-gap: 10px;
+    grid-row-gap: 5em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+}
+
+.card-profile {
+    width: 30vh;
+    height: 40vh;
+    background: rgb(102, 85, 255);
+    border-radius: 15px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.card-work {
+    width: 30vh;
+    height: 30vh;
+    background: rgb(230, 147, 53);
+    border-radius: 15px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.card-play {
+    width: 30vh;
+    height: 30vh;
+    background: rgb(56, 192, 197);
+    border-radius: 15px;
+}
+
+.card-study {
+    width: 30vh;
+    height: 30vh;
+    background: rgb(179, 67, 59);
+    border-radius: 15px;
+}
+
+.card-exercise{
+    width: 30vh;
+    height: 30vh;
+    background: rgb(99, 184, 87);
+    border-radius: 15px;
+}
+
+.card-social {
+    width: 30vh;
+    height: 30vh;
+    background: rgb(99, 11, 182);
+    border-radius: 15px;
+}
+
+.card-self-care {
+    width: 30vh;
+    height: 30vh;
+    background: rgb(212, 209, 24);
+    border-radius: 15px;
+}
